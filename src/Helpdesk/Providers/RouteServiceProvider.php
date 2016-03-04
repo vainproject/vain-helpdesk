@@ -29,7 +29,7 @@ class RouteServiceProvider extends ServiceProvider
 
         // TODO require this as soon as there is something to import
         // -- otherwise artisan will error with an parse error
-        //require base_path('modules/Support/Http/breadcrumbs.php');
+        //require  __DIR__ . '/../Http/breadcrumbs.php';
     }
 
     /**
@@ -42,7 +42,7 @@ class RouteServiceProvider extends ServiceProvider
     public function map(Router $router)
     {
         $router->group(['namespace' => $this->namespace], function ($router) {
-            require base_path('modules/Support/Http/routes.php');
+            require  __DIR__ . '/../Http/routes.php';
         });
     }
 }
