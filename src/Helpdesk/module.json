@@ -1,0 +1,18 @@
+{
+    "name": "Helpdesk",
+    "alias": "helpdesk",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 4,
+    "providers": [
+        "Modules\\Helpdesk\\Providers\\HelpdeskServiceProvider",
+        "Modules\\Helpdesk\\Providers\\AuthServiceProvider",
+        "Modules\\Helpdesk\\Providers\\RouteServiceProvider",
+        "Modules\\Helpdesk\\Providers\\ConfigServiceProvider",
+        "Modules\\Helpdesk\\Providers\\EventServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+    ]
+}

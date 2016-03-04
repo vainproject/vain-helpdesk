@@ -1,0 +1,31 @@
+{
+    "name": "vainproject/vain-helpdesk",
+    "description": "This is an Helpdesk module for the vain platform. It provides a knowledge database, a faq and a basic ticket system.",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Felix Rudat",
+            "email": "voydz@hotmail.com"
+        }
+    ],
+    "require": {
+
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.0",
+        "orchestra/testbench": "^3.1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Helpdesk\\": "src/Helpdesk/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Helpdesk\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
