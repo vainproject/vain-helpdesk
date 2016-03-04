@@ -4,7 +4,7 @@
 
 **This module is under development, and should not be used in production.**
 
-This is an Helpdesk module for the vain platform. It provides a knowledge database, a faq and a basic ticket system.
+This is a helpdesk module for the vain platform. It provides a knowledge database, a faq and a basic ticket system.
 
 ## Licensing
 

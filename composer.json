@@ -1,13 +1,7 @@
 {
     "name": "vainproject/vain-helpdesk",
-    "description": "This is an Helpdesk module for the vain platform. It provides a knowledge database, a faq and a basic ticket system.",
+    "description": "This is a helpdesk module for the vain platform. It provides a knowledge database, a faq and a basic ticket system.",
     "license": "Apache-2.0",
-    "authors": [
-        {
-            "name": "Felix Rudat",
-            "email": "voydz@hotmail.com"
-        }
-    ],
     "require": {
 
     },

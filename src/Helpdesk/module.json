@@ -1,7 +1,7 @@
 {
     "name": "Helpdesk",
     "alias": "helpdesk",
-    "description": "",
+    "description": "This is a helpdesk module for the vain platform. It provides a knowledge database, a faq and a basic ticket system.",
     "keywords": [],
     "active": 1,
     "order": 4,
